@@ -1,0 +1,48 @@
+.App_wrapper {
+  background-color: var(--lightYellow);
+  color: var(--navy);
+  width: 70vw;
+  height: 70vw;
+  margin: 10vw auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App_header {
+  position: absolute;
+  top: -40px;
+  left: 10vw;
+  background-color: var(--skinTone);
+  padding: 0 100px;
+}
+.AddTodo_form input,
+.AddTodo_form button {
+  font-size: 1.5em;
+  background-color: var(--skinTone);
+  outline: none;
+}
+.AddTodo_form button:active {
+  background-color: var(--lightBlue);
+  transform: translateY(2px);
+}
+
+.TodoList_section {
+  display: flex;
+  flex-direction: column;
+  max-width: 50vw;
+  height: 400px;
+  flex-wrap: wrap;
+}
+
+.TodoItem_item {
+  margin-left: 10px;
+  margin-top: 20px;
+  min-width: 100px;
+  font-size: 1.5em;
+  background-color: var(--skinTone);
+}
+
+.Delete_button {
+  float: right;
+}
